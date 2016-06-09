@@ -1,0 +1,11 @@
+{
+  "name": "mangosgame",
+  "version": "1.0.0",
+  "description": "A Web Based Game build in Typescripe using VisualStudio Code and workflow automation through Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

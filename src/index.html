@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mangos - Card Game</title>
+		<link rel="stylesheet" href="styles/material.min.css">		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="scripts/material.min.js"></script> 
+		<script src="scripts/main.js"></script>
+	</head>
+	<body onload="lockdeck()">
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout-icon"></div>
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-title">Mangos - Card Game</span>
+					<div class="mdl-layout-spacer"></div>
+				</div>
+			</header>
+			<main class="mdl-layout__content">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--8-col"> <!-- First Grid of Page -->
+							<table border=1 cellspacing=10 cellpadding=10>
+								<tr>
+									<td><img src="images/0.png" alt="" id="back-card" onclick="checkmangos()" width="71" height="96"></td>
+									<td><img src="" alt="" id="front-card" onclick="checkcard()" width="71" height="96"></td>
+								</tr>
+								<tr>
+									<td colspan="2" bgcolor="red" style="display:none; color:white; text-align:center;" id="mangos">Mangos</td>
+								</tr>
+								<tr>
+									<td colspan="2" align="center">You have got Total : <span id="mangos-count">0</span> Mangos</td>
+								</tr>
+							</table>
+							<br />
+							<br />
+							<br />
+							<table border=1 cellspacing=10 cellpadding=10>
+								<tr>
+									<td><img src="" alt="" id="club-card" width="71" height="96"></td>
+									<td><img src="" alt="" id="diamond-card" width="71" height="96"></td>
+									<td><img src="" alt="" id="heart-card" width="71" height="96"></td>
+									<td><img src="" alt="" id="spade-card" width="71" height="96"></td>
+								</tr>
+							</table>
+						</div>
+					</div>	
+				</div>
+			</main>
+			<footer class="mdl-mini-footer">
+				<div class="mdl-mini-footer--left-selection">
+					<div class="mdl-logo"></div>
+					<ul class="mdl-mini-footer--link-list"> <!-- Footer Menu of Page -->
+						<li><a href="#"></a></li> <!-- Links -->
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
